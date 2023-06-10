@@ -17,5 +17,13 @@ value.style.borderBottom='solid 3px black';
 let value2=document.getElementById('first');
 value2.style.fontSize='bold';
 value2.style.color='green';
+value3=document.getElementsByClassName('list-group-item');
+//console.log(value3);
+value3[2].style.backgroundColor='green';
+for(let i=0;i<value3.length;i++)
+{
+    value3[i].style.fontSize='bold';
+    value3[i].style.color='blue';
+}
 
 

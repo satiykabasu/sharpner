@@ -25,5 +25,10 @@ for(let i=0;i<value3.length;i++)
     value3[i].style.fontSize='bold';
     value3[i].style.color='blue';
 }
-
+let value4=document.getElementsByTagName('li');
+for(let i=0;i<value4.length;i++)
+{
+    
+    value4[i].style.backgroundColor='aqua';
+}
 
